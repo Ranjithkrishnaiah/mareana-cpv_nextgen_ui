@@ -1,0 +1,136 @@
+.materials-wrapper {
+    .materials-accordion {
+        border: none;
+        background-color: transparent;
+
+        .parameter-tag {
+            width: 76px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            word-break: break-all;
+            margin: 0px;
+        }
+
+        .ant-collapse-header {
+            font-family: 'Maven Pro', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            color: #262626;
+            background-color: transparent !important;
+            padding: 10px 20px 10px 0px !important;
+            display: flex;
+            align-items: center;
+
+            .ant-collapse-arrow {
+                right: 15px !important;
+                color: #bfbfbf !important;
+            }
+        }
+    }
+
+
+    .materials-panel {
+        border-bottom: 1px solid #cacaca;
+
+        .ant-collapse-content {
+            border-top: none;
+            border-top: 1px solid #cacaca;
+
+            .ant-collapse-content-box {
+                padding: 0px 0px 10px !important;
+                overflow: hidden !important;
+                max-height: none !important;
+                // background-color: transparent !important;
+            }
+        }
+    }
+}
+
+.ant-collapse {
+    border: none !important;
+}
+
+.ant-collapse-item.viewCreation-materialsPanel {
+    .ant-collapse-content {
+        .ant-collapse-content-box {
+            &:first-of-type {
+                overflow-y: scroll;
+                max-height: 500px;
+                background-color: #ffffff;
+
+                &:hover {
+                    &::-webkit-scrollbar-thumb {
+                        background-color: #b6b6b6;
+                    }
+                }
+
+                &::-webkit-scrollbar {
+                    visibility: hidden;
+                    width: 7px;
+                    height: 7px;
+                    border-radius: 60px;
+                }
+
+                &::-webkit-scrollbar-thumb {
+                    background-color: #b6b6b6;
+                    transition: 0.5s ease;
+                    border-radius: 60px;
+                }
+            }
+        }
+    }
+
+    .loadSpinner-block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+    }
+}
+
+span.material-addIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    span.anticon.anticon-plus-square {
+        font-size: 18px;
+        color: #093185;
+    }
+}
+
+.borderless-table {
+    filter: none;
+    .ant-table {
+        border: none !important;
+    }
+    td {
+       border-bottom: none !important;
+    }
+    td > * {
+        vertical-align : middle;
+    }
+
+    th:first-of-type {
+        width: 126px !important;
+    }
+    td:first-of-type {
+        width: 126px !important;
+    }
+    .ant-table-thead>tr>th:before {
+        background-color: white !important;
+    }
+    .ant-table .ant-table-thead > tr > th {
+        // background-color: transparent;
+        background-color: white !important;
+        padding: 10px 5px !important;
+        border-bottom: none;
+    }
+    .ant-table-tbody > tr > td {
+        background-color: transparent;
+        padding: 5px;
+        border-bottom: none;
+    }
+}

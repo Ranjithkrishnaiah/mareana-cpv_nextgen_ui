@@ -1,0 +1,213 @@
+$body-bg: #f5f5f5;
+$reverse: #fff;
+$font-size-small: 12px;
+$screen-sm: 768px;
+
+$textPrimary: #061737;
+$primary: #0d4a7c;
+$secondary: #547e48;
+
+.MuiAccordionSummary-content.Mui-expanded {
+  margin: 0px 0;
+}
+
+.MuiDialogContent-root {
+  background: #f6f4fc;
+}
+
+.MuiDialogTitle-root {
+  background: #0d4a7c;
+  padding: 2px 12px !important;
+  h6 {
+    color: #fff;
+  }
+  button {
+    color: #fff;
+    // top: -5px;
+    // right: 3px;
+  }
+}
+
+.dialog-bg {
+  background-color: #fff !important;
+}
+
+.MuiBreadcrumbs-separator {
+  color: #0d4a7c;
+}
+
+.ant-table .ant-table-thead > tr > th {
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #fff;
+  color: #495fc3;
+}
+
+// .ant-table-title {
+//   border-radius: 2px 2px 0 0;
+//   border-top: 1px solid #505050;
+//   border-bottom: 1px solid #505050;
+//   font-size: 16px;
+//   font-weight: 500;
+// }
+
+// .ant-table-tbody > tr > td {
+//   border-bottom: 1px solid #b0b0b0;
+// }
+
+.table-search {
+  margin: 6px 12px;
+  width: 230px;
+  float: right;
+  span {
+    input {
+      border-radius: 4px 0 0 4px;
+      padding: 6px 12px;
+    }
+    span {
+      .ant-btn-primary {
+        color: #fff;
+        background: #495fc3;
+        border-color: #495fc3;
+      }
+    }
+  }
+}
+
+.table-column {
+  float: right;
+  padding: 10px;
+}
+
+// .ant-table-row:nth-child(even) {
+//   background: rgba(222, 226, 230, 0.25);
+// }
+
+// .ant-table-thead > tr > th {
+//   border-bottom: 1px solid #505050;
+// }
+
+.custom-table-card {
+  border: 1px solid #eee;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 2px;
+  .table-header {
+    border-bottom: 1px solid #eee;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 0;
+    margin: 10;
+    div:nth-child(1) {
+      float: left;
+      padding: 13px 16px;
+    }
+    div:nth-child(2) {
+      float: right;
+    }
+    p {
+      font-size: 16px;
+      font-weight: 600;
+      margin: 0;
+      color: #495fc3;
+    }
+  }
+}
+
+.custom-formcontrol-style1 {
+  padding: 3px 5px !important;
+
+  > label {
+    position: relative;
+    font-size: 13px;
+    font-weight: 600;
+    transform: none;
+    margin: 0px !important;
+    padding: 2px 0 !important;
+    z-index: unset;
+  }
+  > div {
+    display: grid;
+    border-radius: 5px;
+    width: 200px;
+    background: #ffffff;
+    color: black;
+    height: 33px !important;
+    font-size: 13px;
+  }
+  .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+    height: 33px !important;
+    > input {
+      font-size: 13px;
+      font-weight: 500;
+      padding: 0 4px !important;
+    }
+  }
+}
+
+.custom-autocomplete {
+  margin: 12px 0;
+}
+
+
+.ant-picker {
+  box-sizing: border-box;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: 'tnum', "tnum";
+  padding: 4px 11px 4px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  border-radius: 5px;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+.old_value_class{
+  word-break: break-word;
+  inline-size: 30%;
+}
+// .divFilterDrop
+// {
+//   padding: auto;
+//   background-color: white;
+//   // height: 100;
+// }
+.divFilter
+{
+  display: grid;
+  grid-template-columns: .15fr .15fr .15fr ;
+  margin-top: 1%;
+  background-color: white;
+  padding: 10px;
+
+}
+.divFilter-name
+{
+  display: grid;
+  grid-template-columns: .15fr .15fr .15fr ;
+  margin-left: 15px;
+  
+
+}
+.divFilter-second
+{
+  display: grid;
+  grid-template-columns: .12fr .12fr .12fr ;
+  padding: 10px;
+
+}
+.custom-table-card
+{
+  margin-top: 12%;
+}
+.filter-header
+{
+  background-color: white !important;
+
+}

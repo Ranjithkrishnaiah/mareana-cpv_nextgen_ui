@@ -1,0 +1,72 @@
+
+
+.ant-card-head {
+  background-color: #f1f7ff !important;
+}
+.table {
+    border: .5px solid black;
+    width: 100%;
+  }
+  
+  .th {
+    text-align: left;
+    padding: 8px;
+    width: 100%;
+  }
+  .tr-tr {
+   background-color: #F1F7FF;
+  }
+  .td {
+    text-align: left;
+    padding: 8px;
+    width: 100%;
+  }
+
+  .tr:nth-child(even) {
+    background-color: #F9F9F9;
+  }
+
+  .chart-schedule-card
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 15px;
+  
+  .card-chart
+  {
+    width: 654px;
+    min-height: 282px;
+    max-height: 282px;
+    overflow-y: auto;
+  }
+  .chart-panel
+  {
+    background-color: white;
+    color: black; 
+  }
+  .card-schedule
+  {
+    width: 651px;
+    min-height: 282px;
+    // max-height: 282px;
+    // overflow-y: auto;
+   
+    .schedule
+    {
+      display: grid;
+    grid-template-columns: 1fr 1fr; 
+
+    .card-recipients
+    {
+      max-height: 180px;
+    overflow-y: auto;
+    }
+    }
+   
+  }
+}
+.table-card
+{
+  margin-top: 15px;
+}

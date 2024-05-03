@@ -1,0 +1,105 @@
+.site-drawer-render-in-current-wrapper {
+  position: relative;
+  height: 200px;
+  padding: 48px;
+  overflow: hidden;
+  text-align: center;
+  background: #fafafa;
+  border: 1px solid #ebedf0;
+  border-radius: 2px;
+}
+
+.genealogy-drawer {
+  .ant-drawer-header {
+    padding: 14px 20px 12px 18px;
+  }
+  .ant-drawer-body {
+    padding: 12px 24px 21px 19px;
+  }
+}
+.drawer-title {
+  grid-template-columns: 20px 150px 22px;
+  display: grid;
+  grid-gap: 4px;
+  img {
+    width: 19px;
+    height: 19px;
+  }
+}
+.drawer-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .drawer-title {
+    grid-template-columns: 20px 160px 22px;
+    display: grid;
+    grid-gap: 4px;
+  }
+  img {
+    width: 19px;
+    height: 19px;
+  }
+  p {
+    margin: 0;
+  }
+  .expand-drawer {
+    text-align: right;
+    img {
+      width: 19px;
+      height: 19px;
+    }
+  }
+}
+
+.drawer-collapse,
+.popout-collapse > .ant-collapse-item > .ant-collapse-header {
+  font-family: 'Maven Pro';
+  font-style: normal;
+  line-height: 22px;
+  color: #262626;
+}
+
+.drawer-collapse {
+  > .ant-collapse-item {
+    border-bottom: 1px solid #d9d9d9;
+    margin: 8px auto;
+    border-radius: 4px;
+
+    > .ant-collapse-header {
+      font-weight: 500;
+      font-size: 14px;
+      padding: 12px 6px;
+      > div {
+        position: absolute;
+        right: 0;
+        .ant-collapse-arrow {
+          margin-right: 4px;
+        }
+      }
+    }
+  }
+}
+
+.popout-collapse {
+  > .ant-collapse-item {
+    border: 1px solid #d9d9d9;
+    margin: 8px auto;
+    border-radius: 4px;
+
+    > .ant-collapse-header {
+      background: #edeef0;
+      font-weight: 600;
+      font-size: 16px;
+      padding: 0px;
+      padding: 12px 24px;
+      > div {
+        position: absolute;
+        right: 18px;
+        .ant-collapse-arrow {
+          margin-right: 4px;
+        }
+      }
+    }
+  }
+}

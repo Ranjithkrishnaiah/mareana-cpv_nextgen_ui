@@ -1,0 +1,78 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cpv-nextgen-ui 
+  namespace: bms-dev
+spec:
+  replicas: 1
+  revisionHistoryLimit: 10
+  selector:
+    matchLabels:
+      app: cpv-nextgen-ui
+  strategy:
+      type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: cpv-nextgen-ui
+    spec:
+      imagePullSecrets:
+        - name: regcred
+      nodeSelector:
+         Name: BMS-dev
+      containers:
+        - image: IMAGE
+          name: cpv-nextgen-ui
+          imagePullPolicy: Always
+          #env:
+          # - name: NODE_PATH
+          #   value: src/ 
+          ports:
+          - name: port
+            containerPort: 80
+          resources:
+            requests:
+              memory: 2Gi
+              #  limits:
+                  #   cpu: 200m
+                  #  memory: 1Gi
+---
+apiVersion: v1     #service is enabled which is available in cluster , not outside .  Because to discover by the depeendency pods 
+kind: Service
+metadata:
+  name: cpv-nextgen-ui
+  namespace: bms-dev
+spec:
+  ports:
+  - port: 80
+    targetPort: port
+    protocol: TCP
+  selector:
+    app: cpv-nextgen-ui
+  type: ClusterIP
+---
+apiVersion: autoscaling/v2beta1     # kubectl api-versions  (to check the versions of api w
+kind: HorizontalPodAutoscaler
+metadata:
+  name: cpv-nextgen-ui-autoscaler
+spec:
+  scaleTargetRef:
+          #apiVersion: extensions/v1beta1
+    apiVersion: apps/v1
+    kind: Deployment
+    name: cpv-nextgen-ui
+  minReplicas: 1
+  maxReplicas: 2
+  #  targetCPUUtilizationPercentage: 80
+  metrics:
+          #  - type: Resource
+          #resource:
+          # name: cpu
+          #      targetAverageUtilization: 80
+  - type: Resource
+    resource:
+      name: memory
+      # targetAverageValue: 200Mi  not work, changed to below
+      targetAverageUtilization: 90
+

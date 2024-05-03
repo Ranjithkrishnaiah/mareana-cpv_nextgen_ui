@@ -1,0 +1,99 @@
+.chartid-text
+{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    
+}
+.site-checkbox
+{
+    margin-left: 10px;
+}
+.chartid-select
+{
+    width: 150px;
+}
+.site-select
+{
+    width: 150px;
+}
+.chartid-main
+{
+    width: 300px;
+    height: 500px;
+    border-radius: 4px;
+}
+.site-main
+{
+    margin-top: 10px;
+    width: 541px;
+}
+.site-filter
+{
+   display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px 20px;   
+}
+.schedule-filter
+{
+   display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px 20px;   
+}
+.schedule-main
+{
+    margin-top: 10px;
+    width: 541px;
+}
+.chartid-table
+{   .hartid-table tr:nth-child(2n) td {
+    background-color: rgba(241, 247, 255, 0.73);
+
+}
+.hartid-table thead {
+    background-color: rgba(241, 247, 255, 0.73);
+
+}
+    margin-top: 20px;
+    table {
+        box-shadow: 1px 1px 14px #0000001a;
+      }
+    
+      .ant-table-row:nth-child(even) {
+        background-color: transparent;
+      }
+    
+      .ant-table .ant-table-thead > tr > th {
+        font-family: 'Roboto', sans-serif;
+        color: #262626 !important;
+        font-weight: 500;
+        font-size: 14px;
+        background-color:  rgba(241, 247, 255, 0.73);
+        ;
+        padding: 12px;
+      }
+    
+      .ant-table-tbody > tr > td {
+        font-family: 'Roboto', sans-serif;
+        color: #262626;
+        font-weight: 400;
+        font-size: 14px;
+        border: none;
+        border-bottom: 1px solid #d9d9d9;
+        padding: 12px;
+      }
+}
+.ant-table-head {
+    .ant-table-cell{
+    background-color:red !important
+    }
+  }
+
+.table-row-light {
+    background-color: #ffffff;
+}
+.table-row-dark {
+    background-color: #fbfbfb;
+}

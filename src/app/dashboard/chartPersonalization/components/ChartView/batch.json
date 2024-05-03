@@ -1,0 +1,55 @@
+{
+  "data": {
+    "coverage": {
+      "Temperature": 80,
+      "pH": 100
+    },
+    "batchstats": {
+      "Temperature": "4/5",
+      "pH": "5/5"
+    },
+
+    "coverage1": [
+      {
+        "batchstats": "17/44",
+        "coverage_metric_percent": "100%",
+        "function_name": "Temperature",
+        "function_id": 1
+      },
+      {
+        "batchstats": "17/44",
+        "coverage_metric_percent": "80%",
+        "function_name": "pH",
+        "function_id": 2
+      }
+    ],
+    "data": [
+      {
+        "Temperature": "17.9",
+        "batch_num": "ABL2260",
+        "pH": 5.5
+      },
+      {
+        "Temperature": "18.1",
+        "batch_num": "ABL2261",
+        "pH": 10.5
+      },
+      {
+        "Temperature": 80,
+        "batch_num": "ABL2262",
+        "pH": 3
+      },
+      {
+        "Temperature": "18.136699",
+        "batch_num": "ABV4296",
+        "pH": 1
+      },
+      {
+        "Temperature": "17.609839",
+        "batch_num": "ABV4297",
+        "pH": 1
+      }
+    ]
+  },
+  "statuscode": 200
+}

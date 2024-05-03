@@ -1,0 +1,101 @@
+.charts-container {
+  padding: 10px;
+  min-height: 85vh;
+  .chart-paper {
+    padding: 20px 10px;
+    margin: 0;
+  }
+  .report-button {
+    color: #fff;
+    background-color: #303f9f;
+    float: right;
+  }
+  .material-icons {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .product-minus {
+    cursor: pointer;
+  }
+  .product-select {
+    .MuiSelect-select {
+      padding: 10px;
+      color: #303f9f !important;
+      border: 3px solid #303f9f !important;
+      border-radius: 5px;
+      min-width: 160px;
+    }
+    .MuiInputLabel-formControl {
+      font-weight: bold;
+    }
+    .product-plus {
+      font-size: 50px;
+      font-weight: 600;
+      position: absolute;
+      top: -6px;
+      right: -34px;
+      cursor: pointer;
+    }
+  }
+  .product-name {
+    margin-top: 30px;
+    font-size: 18px;
+    span:first-child {
+      padding: 10px;
+      font-weight: bold;
+      color: #303f9f !important;
+    }
+  }
+  .grids-container {
+    display: flex;
+    align-items: space-between;
+    flex-wrap: wrap;
+    button {
+      padding: 16px 20px;
+      color: #fff;
+      background-color: #303f9f;
+      border-radius: 5px;
+      margin: 10px;
+      text-transform: none;
+      min-height: 137px;
+      outline: none;
+      border: none;
+      min-width: 240px;
+    }
+    .grid-minus {
+      font-weight: normal;
+      position: absolute;
+      top: 5px;
+      right: 0;
+    }
+    .grid-plus {
+      font-size: 100px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+  }
+}
+
+.add-dialog {
+  .MuiDialog-paper {
+    padding: 30px 40px;
+    .custom-formcontrol-style {
+      margin-right: 0 !important;
+    }
+    .MuiDialogActions-root {
+      margin-top: 10px;
+    }
+  }
+}
+
+.textfield-dialog {
+  margin-top: 10px;
+}
+
+iframe {
+  overflow: hidden;
+}
+
+iframe #printWindow article {
+  width: auto !important;
+}

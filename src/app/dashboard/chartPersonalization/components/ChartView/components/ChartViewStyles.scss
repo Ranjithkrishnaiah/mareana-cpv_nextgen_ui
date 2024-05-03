@@ -1,0 +1,71 @@
+.chartview-input,
+.chartview-select {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px 20px;
+}
+
+.chartview-input-landing {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px 20px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.chartview-select {
+  margin-bottom: 10px;
+}
+
+.alert-tags {
+  display: block;
+  height: 90px;
+  // overflow-x: auto;
+  .alert-tags_error {
+    display: grid;
+    grid-template-columns: 15px 120px 60px 30px;
+    grid-gap: 0 4px;
+    grid-auto-rows: minmax(20px, 20px);
+    margin: 6px 0;
+
+    .alert-tags-label {
+      text-align: center;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      /* identical to box height, or 143% */
+      overflow: hidden;
+    }
+    .tag-percent {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      margin: 0px;
+      padding: 0px;
+      color: #262626;
+      border-right: 1px solid #ddd;
+      text-align: center;
+    }
+    .tag-stats {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 22px;
+      /* identical to box height, or 157% */
+      margin: 0px;
+      padding: 0;
+      color: #000000;
+      text-align: center;
+    }
+    .alert-progress-error {
+      margin-left: 15px;
+      width: 45px;
+      text-align: center;
+    }
+  }
+}

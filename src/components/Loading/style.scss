@@ -1,0 +1,21 @@
+.loading-wrapper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  .ant-spin-dot {
+    font-size: 50px;
+  }
+  .ant-spin-dot i {
+    width: 20px;
+    height: 20px;
+  }
+  .ant-spin-text {
+    color: #fff;
+  }
+}

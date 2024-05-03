@@ -1,0 +1,95 @@
+{
+    "data": {
+        "rep_disp_id": "R133",
+        "rep_name": "REPORT_NEW_JSON",
+        "rep_status": "DRFT",
+        "user": "demo",
+        "variant_name": "demo_variant",
+        "chart_info": {
+            "charts": [
+                {
+                    "chart": "C1-BELAC_ANALY-1",
+                    "excursion": false,
+                    "violation": false,
+                    "parameter": false,
+                    "exclusion": false
+                },
+                {
+                    "chart": "C1-BELAC_ANALY-4",
+                    "excursion": false,
+                    "violation": false,
+                    "parameter": false,
+                    "exclusion": false
+                }
+            ]
+        },
+        "layout_info": {
+            "titlepage": {
+                "heading": "TITLEPAGE",
+                "numbered": true,
+                "content": [
+                    {
+                        "value": "Mihir",
+                        "editable": true,
+                        "id": 1,
+                        "key": "NAME"
+                    },
+                    {
+                        "value": "21",
+                        "editable": true,
+                        "id": 2,
+                        "key": "AGE"
+                    }
+                ],
+                "id": 0
+            },
+            "sections": [
+                {
+                    "heading": "SUMMARY",
+                    "numbered": false,
+                    "content": [
+                        {
+                            "value": "Report",
+                            "editable": true,
+                            "id": 1,
+                            "key": "TITLE"
+                        },
+                        {
+                            "value": "BELA",
+                            "editable": true,
+                            "id": 2,
+                            "key": "DESC"
+                        }
+                    ],
+                    "id": 1
+                },
+                {
+                    "heading": "NON",
+                    "numbered": false,
+                    "content": [
+                        {
+                            "value": "NA",
+                            "editable": false,
+                            "id": 1,
+                            "key": "NAN"
+                        }
+                    ],
+                    "id": 2
+                }
+            ]
+        },
+        "share": {
+            "frequency_unit": "Daily",
+            "email_list": [
+                "a@gmail.com",
+                "c@gmail.com",
+                "b@gmail.com",
+                "m@gmail.com"
+            ],
+            "scheduled_start": "2022-03-01 09:55:22",
+            "scheduled_end": "2022-03-03 09:50:22",
+            "frequency": "1"
+        }
+    },
+    "saveType": "save"
+}

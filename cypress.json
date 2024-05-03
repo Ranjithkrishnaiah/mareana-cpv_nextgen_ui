@@ -1,0 +1,11 @@
+{
+  "baseUrl": "http://localhost",
+  "integrationFolder": "cypress/integration",
+  "fixturesFolder": "cypress/fixtures",
+  "supportFile": "cypress/support/index.js",
+  "pluginsFile": "cypress/plugins/index.js",
+  "video": false,
+  "experimentalStudio": true,
+  "defaultCommandTimeout": 4000,
+  "projectId": "xrcrtz"
+}

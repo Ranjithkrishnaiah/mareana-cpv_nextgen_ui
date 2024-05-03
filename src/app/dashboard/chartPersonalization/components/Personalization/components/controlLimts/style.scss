@@ -1,0 +1,68 @@
+.container {
+	.ant-table {
+		margin: 10px !important;
+		// margin-bottom: 20px !important;
+	}
+}
+
+.controlLimit {
+	.ant-table-thead > tr > th {
+		background: #f2fbff;
+		padding: 10px;
+		font-family: Roboto;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 22px;
+		letter-spacing: 0em;
+	}
+
+	.ant-table-title {
+		padding: 6px;
+		font-family: Roboto;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 28px;
+		letter-spacing: 0em;
+	}
+	.ant-table-cell {
+		font-family: Roboto;
+		font-style: normal;
+		color: #262626;
+		padding: 8px;
+		text-align: center;
+		.ant-input {
+			text-align: center;
+			padding: 0px;
+			width: 100%;
+			border: 0px;
+		}
+	}
+	.add-row-btn {
+		float: right;
+		color: #093185;
+		height: 24px;
+		line-height: 0.5715;
+		border: 1px solid #093185;
+		box-sizing: border-box;
+		background: #ffffff;
+		font-family: Titillium Web;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+		letter-spacing: 0em;
+		border-radius: 4px;
+        padding: 2px 8px !important;
+	}
+	.ant-picker {
+		padding: 0px;
+		border: 0px;
+	}
+	.ant-picker-input > input::placeholder {
+		color: #1890ff;
+	}
+	.ant-picker-input > input {
+		color: #1890ff;
+	}
+}

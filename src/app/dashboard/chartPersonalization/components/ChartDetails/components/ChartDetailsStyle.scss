@@ -1,0 +1,70 @@
+.chart-details-input {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px 20px;
+}
+
+.no-chart-data {
+  font-size: 170px;
+  color: rgb(230, 247, 255);
+  text-align: center;
+  margin: 0px auto;
+  width: 505px;
+  height: 280px;
+}
+
+.ant-modal-body{
+  padding: 18px 25px !important;
+}
+ .ant-modal-header {
+  font-family: 'Maven Pro', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 10px 25px !important;
+}
+.ant-modal-content {
+  button:first-of-type {
+    margin-top: -6px !important;
+  }
+}
+.exclusion-modal {
+ .ant-row {
+   padding-bottom: 15px;
+ }
+ .ant-row:last-of-type {
+   margin-top: 4px !important;
+  padding-bottom: 0px !important;
+}
+textarea {
+  margin-top: 7px !important;
+}
+ p {
+  font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    padding-bottom: 7px !important;
+ }
+ .ant-checkbox-wrapper {
+   flex-direction: row-reverse !important;
+   margin-top: 33px !important;
+ }
+ .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #093185 !important;
+  border-color: #093185 !important;
+}
+ .btn-three{
+  display:flex;
+  justify-content: space-between;
+  button:first-of-type {
+    margin-top: 0px !important;
+  }
+   .last-btn {
+     button:last-of-type {
+       margin-left: 16px;
+     }
+   }
+ }}

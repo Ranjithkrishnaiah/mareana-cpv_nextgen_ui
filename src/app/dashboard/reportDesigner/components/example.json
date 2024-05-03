@@ -1,0 +1,82 @@
+{
+    "Data": [
+        {
+            "chart_details": [
+                "C1-BELAC_ANALY-4",
+                "C1-BELAC_ANALY-1"
+            ],
+            "chart_int_ids": [
+                "1",
+                "4"
+            ],
+            "created_by": "demo",
+            "created_on": "2022-02-24T17:53:14.257307+00:00",
+            "layout_info": {
+                "sections": [
+                    {
+                        "content": [
+                            {
+                                "id": {
+                                    "editable": "true",
+                                    "value": "TEST"
+                                },
+                                "site": {
+                                    "value": "when"
+                                }
+                            }
+                        ],
+                        "heading": "HEADER",
+                        "numbered": "true"
+                    },
+                    {
+                        "content": [
+                            {
+                                "product": {
+                                    "value": "BELA-CAIO TOKYO"
+                                },
+                                "title": {
+                                    "editable": "true",
+                                    "value": "REPORT_PDF"
+                                }
+                            }
+                        ],
+                        "heading": "SUMMARY",
+                        "numbered": "false"
+                    },
+                    {
+                        "content": [
+                            {
+                                "desc": {}
+                            }
+                        ],
+                        "heading": "SCOPE",
+                        "numbered": "false"
+                    }
+                ],
+                "titlepage": {
+                    "content": [
+                        {
+                            "id": {
+                                "editable": "true",
+                                "value": "TEST"
+                            },
+                            "site": {
+                                "value": "when"
+                            }
+                        }
+                    ],
+                    "heading": "HEADER",
+                    "numbered": "true"
+                }
+            },
+            "rep_disp_id": "R67",
+            "rep_name": "TEST_4",
+            "rep_status": "DRFT",
+            "view_details": "V1-1",
+            "view_disp_id": "V1",
+            "view_int_id": "1",
+            "view_version": 1
+        }
+    ],
+    "status-code": 200
+}

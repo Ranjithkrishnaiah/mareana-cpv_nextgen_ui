@@ -1,0 +1,12 @@
+{
+    "/dashboard": "Dashboard",
+    "/dashboard/appRegister": "App Register",
+    "/dashboard/appRegister/appList": "App List",
+    "/dashboard/appRegister/appList/appDetails": "App Details",
+    "/dashboard/tableRegister": "Table Register",
+    "/dashboard/tableRegister/tableList": "Table List",
+    "/dashboard/tableRegister/tableList/tableDetails": "Table Details",
+    "/dashboard/filterRegister": "Filter Register",
+    "/dashboard/filterRegister/filterList": "Filter List",
+    "/dashboard/filterRegister/filterList/filterDetails": "Filter Details"
+}

@@ -1,0 +1,262 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: Roboto;
+    font-style: normal;
+    letter-spacing: 0em;
+}
+.ant-card-body {
+    border-radius: 4px;
+}
+
+.pbr-container {
+    min-height: calc(100vh - 120px);
+    overflow-y: scroll;
+    height: calc(100vh - 120px);
+}
+
+.banner {
+    margin: 10px 0px 20px;
+    .ant-card-body {
+        height: 168px;
+        background: linear-gradient(180deg, #e7e5ff 0%, #fff4f4 100%);
+    }
+    .card-body-div {
+        padding-left: 6px;
+        padding-right: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        :nth-child(3) {
+            margin-top: -80px;
+        }
+        img {
+            width: 230px;
+        }
+        h6 {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 22px;
+            color: #666666;
+        }
+        .text-descp {
+            h2 {
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 22px;
+            }
+            p {
+                font-size: 18px;
+                font-weight: 300;
+                line-height: 22px;
+            }
+        }
+    }
+}
+
+.ant-modal.newTemplateModal {
+    .ant-modal-body {
+        padding: 24px 24px 0px 24px;
+    }
+}
+
+.landing-content {
+    margin-top: 5px;
+
+    .ant-card-body {
+        min-height: 65vh;
+    }
+    .ant-input-search-button {
+        background-color: #093185 !important;
+    }
+    .ant-input-search-button:hover {
+        background: #486bc9 !important;
+    }
+    .p36 {
+        padding: 12px 18px;
+    }
+    .create-new {
+        height: 137px;
+        width: 175px;
+        border-radius: 4px;
+        background: #ffffff;
+        border: 1px dashed #d9d9d9;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 13px;
+        margin-bottom: 10px;
+        svg {
+            cursor: pointer;
+            margin-top: 10px !important;
+            font-size: 40px;
+            color: #cbcbcb;
+        }
+        p {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px;
+            color: #494949;
+        }
+    }
+    .create-new:hover {
+        border: 1px dashed #40a9ff;
+        p {
+            color: #40a9ff;
+        }
+    }
+}
+
+.recent-charts {
+    .ant-divider-horizontal {
+        margin: 0px !important;
+        margin-bottom: 12px !important;
+        border-top: 1px solid #e2e2e2;
+    }
+    h3 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        color: #000000;
+    }
+    .chart-tiles {
+        height: 84px;
+        width: 162px;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .red {
+        background: #f0ad4e;
+    }
+    .green {
+        background: #5cb85c;
+    }
+    .draft {
+        background: grey;
+    }
+}
+
+.ant-row.p-28 {
+    padding: 0 28px;
+}
+
+.pbrTemplates-table {
+    table {
+        box-shadow: 1px 1px 14px #0000001a;
+    }
+
+    .ant-table-row:nth-child(even) {
+        background-color: transparent;
+    }
+
+    .ant-table .ant-table-thead > tr > th {
+        font-family: 'Roboto', sans-serif;
+        color: #262626 !important;
+        font-weight: 500;
+        font-size: 14px;
+        background-color: #f0f7fa;
+    }
+
+    .ant-table-tbody > tr > td {
+        font-family: 'Roboto', sans-serif;
+        color: #000000;
+        font-weight: 400;
+        font-size: 14px;
+        border: none;
+        border-bottom: 1px solid #d9d9d9;
+    }
+}
+
+.ant-modal.newTemplateModal {
+    .ant-modal-header {
+        .ant-modal-title {
+            font-family: Maven Pro, sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 22px;
+        }
+    }
+
+    button.ant-btn.ant-btn-primary.templateSubmitBtn {
+        background-color: #093185;
+        border-radius: 4px;
+    }
+
+    form.ant-form.ant-form-vertical.formNewTemplate {
+        .formNewTemplateDiv {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 0 24px;
+        }
+
+        label {
+            font-weight: 400;
+            color: #262626;
+            line-height: 22px;
+        }
+    }
+}
+
+.radioPdfBlock {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 24px;
+    margin-bottom: 10px;
+
+    label {
+        padding: 11px 5px;
+        border: 0.5px solid #c2c2c2;
+        border-radius: 4px;
+        margin: 10px 0px;
+        height: 57px;
+    }
+
+    .ant-radio-button-wrapper:first-child {
+        border-radius: 4px;
+    }
+
+    .ant-radio-button-wrapper:not(:first-child):before {
+        background-color: transparent;
+    }
+
+    .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+        border-color: #486bc9;
+
+        &::after {
+            content: '';
+            position: absolute;
+            background-image: url('../../../../assets/images/checkbox.svg');
+            width: 18px;
+            height: 18px;
+            top: -12px;
+            right: -8px;
+        }
+    }
+}
+
+.pdfListBlock {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        margin-right: 4px;
+    }
+
+    span {
+        color: #093185;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+    }
+}

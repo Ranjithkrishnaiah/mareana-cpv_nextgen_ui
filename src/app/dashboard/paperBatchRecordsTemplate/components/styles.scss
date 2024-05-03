@@ -1,0 +1,204 @@
+.ant-row.pbrTemplateRow-block {
+    padding: 0px 28px;
+    margin-top: 10px;
+}
+
+.pageIdentifierBlock {
+    .conditonBlock {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 60%;
+    }
+}
+
+.ant-col.ant-col-12.pbrTemplateRow-col {
+    padding: 0 24px;
+}
+
+.secondary-flexBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 24px;
+}
+
+.formNewTemplate {
+    .ant-form-item {
+        margin-bottom: 10px;
+    }
+}
+
+.custom-wrapper.pbr-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+
+button.defineTableBtn {
+    background-color: #093185;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ellipseIconMenu {
+    transform: rotate(90deg);
+    color: #093185;
+    font-size: 32px;
+    margin-left: 4px;
+}
+
+.pbrPanel {
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    border-radius: 4px 4px 0px 0px;
+    height: 100vh;
+
+    .ant-collapse-header {
+        background-color: #f1f7ff;
+        font-family: Maven Pro;
+        font-weight: 500;
+        font-size: 16px;
+        color: #4d4d4d !important;
+    }
+
+    .pbrCenterPanel-header {
+        padding: 12px 40px 12px 16px;
+        background-color: #f1f7ff;
+
+        .pbrCenterBlockRight {
+            display: inline-flex;
+            align-items: center;
+            justify-content: right;
+            gap: 30px;
+        }
+    }
+
+    .pbrCenterPanelCol {
+        p.pbrCenterPanelHeader-para {
+            margin: 0px;
+            font-family: Maven Pro;
+            font-weight: 500;
+            font-size: 16px;
+            color: #4d4d4d !important;
+
+            span {
+                color: #093185;
+                margin-left: 30px;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .pbrCenterPdfBlock {
+        height: 400px;
+        padding: 10px 16px;
+    }
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #262626 !important;
+    line-height: 22px;
+}
+
+.pbrTemplateRowContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+    .pbrTemplateCenter {
+        width: 100%;
+        padding: 0 40px;
+    }
+
+    .pbrTemplateLeft {
+        span.trigger {
+            position: absolute;
+            right: -21px;
+            top: 50%;
+            cursor: pointer;
+        }
+    }
+
+    .pbrTemplateRight {
+        span.trigger {
+            position: absolute;
+            left: -21px;
+            top: 50%;
+            cursor: pointer;
+        }
+    }
+
+    .pbrTemplateLeft,
+    .pbrTemplateRight {
+        .ant-layout-sider {
+            background-color: transparent;
+            width: 340px !important;
+            flex: 0 0 340px !important;
+            max-width: 340px !important;
+            min-width: 340px !important;
+        }
+
+        .ant-layout-sider-collapsed {
+            width: 18px !important;
+            flex: 0 0 18px !important;
+            max-width: 18px !important;
+            min-width: 18px !important;
+        }
+
+        .ant-collapse {
+            overflow: hidden;
+        }
+    }
+}
+
+.addParameterBlock {
+    .firstParameter-para {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            color: #787878;
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            border-radius: 4px;
+            background: #ffffff;
+            border: 1px dashed #d9d9d9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 10px 0px;
+            padding: 5px 15px;
+            cursor: pointer;
+
+            &:hover {
+                color: #40a9ff;
+                border: 1px dashed #40a9ff;
+            }
+        }
+    }
+}
+
+.pbrCenterPanelCol.pbrCenterBlockRight {
+    div {
+        cursor: pointer;
+    }
+
+    .drawSnippet {
+        span {
+            margin-right: 6px;
+            font-size: 16px;
+        }
+    }
+}

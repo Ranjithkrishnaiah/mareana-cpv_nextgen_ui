@@ -1,0 +1,41 @@
+.functionEditor-container {
+  .functionEditor-FormBlock {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1.5fr;
+  }
+  // .MathEditor-FormBlock {
+  //     grid-template-columns: 1.5fr 1fr;
+  //     padding-top: 24px;
+  // }
+
+  .ant-col.ant-form-item-control {
+    width: 164px;
+  }
+
+  .functionBatch-table {
+    // width: 330px;
+    .ant-card-head {
+      background-color: #f0f7fa !important;
+      border-bottom: 1px solid #ececec !important;
+    }
+    .ant-card-body {
+      border: '1px solid #ececec';
+      border-radius: '2px';
+    }
+  }
+
+  .MathEditor-table {
+    width: 600px;
+  }
+}
+.cardClass.ant-card-bordered {
+  height: 150px;
+}
+
+.MathEditor-table{
+  th:first-of-type{
+    padding-left: 15px !important;
+  }
+  td:first-of-type{
+    padding-left: 15px !important;
+  }
+}

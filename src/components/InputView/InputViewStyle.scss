@@ -1,0 +1,22 @@
+.input_field_view {
+  .input_view {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-gap: 10px 0px;
+  }
+  p {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+    /* Gray / gray-9 */
+    color: #262626;
+  }
+}
+
+.popup-btn {
+  background: #d9d9d9;
+}

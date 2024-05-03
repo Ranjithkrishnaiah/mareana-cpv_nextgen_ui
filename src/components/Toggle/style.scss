@@ -1,0 +1,75 @@
+/* Default Toggle Styles */
+.toggle {
+  & input {
+    display: none;
+  }
+  & input:checked ~ label .toggler {
+    left: 0%;
+  }
+  & input + label .toggler {
+    left: 50%;
+  }
+  & label {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    & .toggleLabel {
+      text-align: center;
+      position: relative;
+      flex: 1 1;
+      transition: all 0.5s;
+      background: #c4c4c4;
+      height: 32px;
+      width: 100%;
+      padding: 5px 0;
+
+      .toggle-text {
+        z-index: 2;
+        position: absolute;
+        left: 0;
+        right: 0;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        /* identical to box height, or 157% */
+
+        color: #ffffff;
+      }
+    }
+  }
+}
+.toggler {
+  position: absolute;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: #486bc9;
+  z-index: 1;
+  transition: all 0.5s;
+  border-radius: 4px;
+}
+
+@keyframes unstrike {
+  100% {
+    left: 25%;
+    top: 1.5em;
+    height: 1em;
+    width: 50%;
+  }
+}
+
+.toggleLabel:nth-child(1) {
+  border-radius: 4px 0px 0px 4px;
+}
+.toggleLabel:nth-child(2) {
+  border-radius: 0px 4px 4px 0px;
+}
+
+.isChecked {
+  padding-top: 29px;
+}

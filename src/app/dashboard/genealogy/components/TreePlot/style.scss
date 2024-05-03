@@ -1,0 +1,475 @@
+/**
+ * @author Dinesh Kumar <dinesh.kumar@mareana.com>
+ * @version 1
+ * @Last Modified - 14 March, 2022
+ */
+
+//disable path - background: #E0E0E0;
+//active path - background: #08C6FF;
+//active path - background: #486BC9;
+//material - background: #6C534E;
+//process-order
+//non-compliaint material - background: #E3170A;
+
+.material-tag {
+  background-color: #6c534e;
+}
+
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.value-match {
+  fill: none;
+  stroke: #08c6ff;
+  stroke-width: 2px;
+}
+
+div.tooltipheader {
+  background-color: #303f9f;
+  color: white;
+  border-color: #303f9f;
+
+  font-size: 13px;
+  margin-bottom: 2px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  font-family: 'Open Sans', Arial, Helvetica, Sans-Serif;
+  height: 37px;
+}
+
+.alert-warning {
+  border-color: #303f9f;
+}
+
+div#federalDiv {
+  // width: 450px;
+  max-height: 350px;
+  /* left: 0px;
+  top: 35px;
+  position: absolute; */
+}
+
+#main {
+  // width: 100%;
+  /* overflow: scroll; */
+  // overflow: hidden;
+  /* border: 2px solid #444; */
+  // position: relative;
+  // min-height: 450px;
+  // padding: 20px;
+  // margin: 20px 0;
+  // box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  // background: #dbe2e2;
+}
+
+// #backwardDiv {
+//   position: absolute;
+//   left: 0;
+//   top: 0;
+// }
+// #forwardDiv {
+//   position: absolute;
+// }
+
+// .chart-legends {
+//   margin-top: 15px;
+// }
+
+// .chart-legends span {
+//   padding: 0 5px;
+// }
+
+.grabbableactive {
+  cursor: grabbing;
+}
+
+.grabbable {
+  cursor: grab;
+}
+
+#custom-zoom-controls {
+  position: absolute;
+  right: 0px;
+  top: 45px;
+  z-index: 10;
+}
+
+#custom-genealogy {
+  position: absolute;
+  right: 0px;
+  top: 45px;
+  z-index: 1;
+  padding-top: 45px;
+  display: flex;
+}
+
+.chart-tree-d3 {
+  position: relative;
+}
+
+#custom-zoom-controls div {
+  display: inline-block;
+}
+
+.chart-div {
+  margin: 20px;
+  width: 80%;
+  height: 800px;
+  transform: scaleX(-1);
+  border: 2px solid rgb(78, 78, 78);
+  border-radius: 5px;
+  position: relative;
+  left: 10%;
+  > div {
+    > svg {
+      > g {
+        transform: translate(2%, 47%) scale(0.15) !important;
+      }
+    }
+  }
+}
+
+#tooltip-modal {
+  > div {
+    background-color: transparent !important;
+  }
+}
+
+.tooltip-style {
+  width: auto;
+  text-transform: capitalize;
+  height: auto;
+  padding: 15px;
+  background: #ffffff;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 500;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+}
+
+#gbtonclick {
+  position: absolute;
+  // background: white;
+  width: 175px;
+  padding: 10px 10px 10px 10px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: none;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.9);
+  // background: #e9ecefb0;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(200, 200, 200, 0.85);
+  // font-family:  Sans-Serif;
+}
+
+.additionalParentLink {
+  fill: none;
+  stroke: #08c6ff;
+  stroke-width: 2px;
+  // stroke-linecap: round !important;
+  // opacity: 0.7 !important;
+}
+.additionalParentForwardLink {
+  fill: none;
+  stroke: rgb(255, 140, 0);
+  stroke-width: 2px;
+  // stroke-linecap: round !important;
+  // opacity: 0.7 !important;
+}
+
+//-------------
+
+.anchor {
+  text-decoration: none;
+  color: white !important;
+  border-bottom: 0px !important;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.tree-plot {
+  // height: 110vh;
+  // padding-top: 0 !important;
+  // padding-bottom: 0 !important;
+  // height: 500px;
+}
+
+.container {
+  border-radius: 3px;
+
+  width: 60%;
+  margin: 0 auto;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 25px;
+}
+h2:hover {
+  cursor: pointer;
+}
+
+/* Context menu */
+.context-menu {
+  display: none;
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 200px;
+  background: #adcae6;
+  box-shadow: 10px 10px 5px black;
+  z-index: 10;
+}
+
+.context-menu ul {
+  padding: 0px;
+  margin: 0px;
+  min-width: 150px;
+  list-style: none;
+}
+
+.context-menu ul li {
+  padding: 5px 2px;
+  margin-bottom: 1px;
+  color: black;
+  font-weight: bold;
+  background: color #307f93;
+}
+
+.context-menu ul li:hover {
+  cursor: pointer;
+  background-color: #309f9f;
+}
+.context-menu-child {
+  display: none;
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 200px;
+  background: white;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.context-menu-child ul {
+  padding: 0px;
+  margin: 0px;
+  min-width: 150px;
+  list-style: none;
+}
+
+.context-menu-child ul li {
+  padding: 5px 2px;
+  margin-bottom: 1px;
+  color: white;
+  font-weight: bold;
+  background-color: #d3d3d3;
+}
+
+.context-menu-child ul li:hover {
+  cursor: pointer;
+  background-color: #7fffd4;
+}
+/* Colors */
+
+div.popup {
+  display: none;
+  position: absolute;
+}
+
+.genealogy-legends_frames {
+  position: absolute;
+  bottom: 0px;
+  display: none;
+  background: #ffffff;
+  width: 251px;
+  height: 196px;
+  box-shadow: 0px 9px 28px 8px rgba(0, 0, 0, 0.05),
+    0px 6px 16px rgba(0, 0, 0, 0.08), 0px 3px 6px -4px rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+  ul {
+    padding: 10px 12px !important;
+    li {
+      display: grid;
+      grid-template-columns: 30px 200px;
+      grid-gap: 8px 13px;
+      padding-bottom: 10px !important;
+      img {
+        width: 19px;
+        height: 21px;
+      }
+      span {
+        width: 20px;
+        height: 20px;
+      }
+      .batch_icon {
+        width: 20px;
+        height: 20px;
+        background: #6c534e;
+        border-radius: 50px;
+      }
+      .batch_icon_non {
+        width: 20px;
+        height: 20px;
+        background: #e3170a;
+        border-radius: 50px;
+      }
+      .anticon-plus {
+        font-size: 12px;
+        font-weight: 600;
+        background: #6c534e;
+        border-radius: 50px;
+        color: #fff;
+        padding: 4px;
+      }
+      .anticon-minus {
+        font-size: 12px;
+        background: #6c534e;
+        border-radius: 50px;
+        font-weight: 600;
+        color: #fff;
+        padding: 4px;
+      }
+      .anticon-warning {
+        font-size: 16px;
+        color: #e3170a;
+      }
+      p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        /* identical to box height, or 157% */
+        margin: 0px;
+
+        /* Gray / gray-9 */
+
+        color: #262626;
+      }
+    }
+  }
+}
+
+.genealogy-legends:hover .genealogy-legends_frames {
+  display: block;
+}
+
+.genealogy-legends_icon {
+  span {
+    font-size: 20px;
+  }
+}
+
+.genealogy-legends {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+}
+
+// #treeWrapper {
+//   position: relative;
+// }
+.tree-wrap {
+  position: relative;
+  min-height: 450px;
+}
+.drag-search {
+  position: absolute;
+  cursor: move;
+  right: 40px;
+  top: 40px;
+  max-width: 290px;
+  width: 265px;
+  border-radius: 5px;
+
+  margin: auto;
+  user-select: none;
+  .drag-search_head {
+    background: #486bc9;
+    font-family: Maven Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 4px 4px 0px 0px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+    padding: 8px 25px;
+    display: block;
+    color: #ffffff;
+    width: 100%;
+  }
+}
+
+.popup-div {
+  position: absolute;
+  width: 215px;
+  padding: 12px;
+  background: #ffffff;
+  box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.24);
+  border-radius: 4px;
+  button {
+    margin: -1px 0;
+    width: 100%;
+    background: #fff;
+    color: #093185;
+    padding: 6px 0;
+    height: 36px;
+  }
+}
+
+div.gbttooltip {
+  position: absolute;
+  text-align: left;
+  pointer-events: none;
+  height: auto;
+  max-height: 210px;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 9px 28px 8px rgba(0, 0, 0, 0.05),
+    0px 6px 16px rgba(0, 0, 0, 0.08), 0px 3px 6px -4px rgba(0, 0, 0, 0.12);
+  padding: 12px 24px;
+  opacity: 0;
+}
+div.headerattribute {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+
+  color: #486bc9;
+}
+
+.select-allowclear {
+  position: relative;
+  .close-searchicon {
+    border: 0;
+    position: absolute;
+    right: -5px;
+    top: 1px;
+    background: transparent;
+  }
+}

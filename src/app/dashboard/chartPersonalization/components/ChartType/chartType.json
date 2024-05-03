@@ -1,0 +1,86 @@
+[
+  {
+    "chart_info": [
+      {
+        "Title": "PH Values for various batches",
+        "x-axis": "Batches",
+        "y-axis": "Max PH"
+      }
+    ],
+    "chart_int_id": 1,
+    "chart_name": "BELAC_ANALY",
+    "chart_type": "Scatter Plot"
+  },
+  {
+    "chart_info": [
+      {
+        "Title": "PH Values for various batches",
+        "x-axis": "Batches",
+        "y-axis": "Max PH"
+      }
+    ],
+    "chart_int_id": 2,
+    "chart_name": "BELAC_ANALY",
+    "chart_type": "Process Control"
+  },
+  {
+    "chart_info": [
+      {
+        "Title": "PH Values for various batches",
+        "x-axis": "Batches",
+        "y-axis": "Max PH"
+      }
+    ],
+    "chart_int_id": 3,
+    "chart_name": "BELAC_ANALY",
+    "chart_type": "Levey-Jennings Plot"
+  },
+  {
+    "chart_info": [
+      {
+        "Title": "PH Values for various batches",
+        "x-axis": "Batches",
+        "y-axis": "Max PH"
+      }
+    ],
+    "chart_int_id": 4,
+    "chart_name": "BELAC_ANALY",
+    "chart_type": "I-MR Plot"
+  },
+  {
+    "chart_info": [
+      {
+        "Title": "PH Values for various batches",
+        "x-axis": "Batches",
+        "y-axis": "Max PH"
+      }
+    ],
+    "chart_int_id": 5,
+    "chart_name": "Sodium Hydroxide 10N Bio",
+    "chart_type": "Trend Control"
+  },
+  {
+    "chart_info": [
+      {
+        "Title": "PH Values for various batches",
+        "x-axis": "Batches",
+        "y-axis": "Max PH"
+      }
+    ],
+    "chart_int_id": 6,
+    "chart_name": "Sodium Hydroxide 10N Bio",
+    "chart_type": "KDE Control"
+  },
+  {
+    "chart_info": [
+      {
+        "Title": "PH Values for various batches",
+        "x-axis": "Batches",
+        "y-axis": "Max PH"
+      }
+    ],
+    "chart_int_id": 7,
+    "chart_name": "BELAC_ANALY",
+    "chart_type": "Box Control"
+  }
+]

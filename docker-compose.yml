@@ -1,0 +1,18 @@
+# dockerfile: Dockerfile
+# dockerfile: Dockerfile.qa
+# dockerfile: Dockerfile.stage
+# dockerfile: Dockerfile.prod.
+
+version: '3.9'
+services:
+  cpv-nextgen-ui:
+    container_name: cpv-nextgen-ui
+    image: registry.mareana.com/cpv-nextgen-ui:latest
+    restart: unless-stopped
+    dockerfile: Dockerfile
+    environment:
+      - NODE_PATH=src/
+    ports:
+      - 3030:3030
+
+

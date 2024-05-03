@@ -1,0 +1,79 @@
+.workflow-table{
+    // th:first-of-type {
+    //     padding-left: 25px !important;
+       
+    // }
+    // th:last-of-type {
+    //     padding-right: 25px !important;
+       
+    // }
+    // td:first-of-type {
+    //     padding-left: 25px !important;
+       
+    // }
+    // td:last-of-type {
+    //     padding-right: 25px !important;
+       
+    // }
+}
+
+.approval-table{
+    th:first-of-type {
+        padding-left: 25px !important;
+       
+    }
+    th:last-of-type {
+        padding-right: 25px !important;
+       
+    }
+    td:first-of-type {
+        padding-left: 25px !important;
+       
+    }
+    td:last-of-type {
+        padding-right: 25px !important;
+       
+    }
+    .ant-table .ant-table-thead > tr > th {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #262626;
+        background: rgba(242, 251, 255, 1);
+        border-radius: 0px 2px 0px 0px;
+        padding: 10px;
+      }
+    
+      .ant-table-tbody > tr > td {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #000000;
+        // border: none;
+        // border-bottom: 1px solid #d9d9d9;
+        padding: 10px;
+      }
+
+}
+
+.avatar-icon{
+    color: #ffff;
+    background-color: #728C69;
+}
+.avatar-text{
+    padding: 0px 10px;
+}
+
+.review-submission{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+color: #093185;
+}
+

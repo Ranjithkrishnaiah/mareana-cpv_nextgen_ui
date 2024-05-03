@@ -1,0 +1,140 @@
+.fileUpload-panelHeader {
+    font-size: 16px;
+    margin-top: -5px;
+    display: flex;
+
+    span.fileUpload-download {
+        margin-right: 10px;
+        a {
+            color: #093185;
+        }
+    }
+    span.fileUpload-delete {
+        color: #fa541c;
+    }
+}
+
+.materials-uploadDownloadFiles {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0px 10px;
+
+    .materials-uploadFiles {
+        button.ant-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #093185;
+            border-radius: 4px;
+            color: #262626;
+        }
+    }
+
+    .materials-downloadFiles {
+        .viewCreation-downloadBtn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #262626;
+
+            a {
+                color: #262626 !important;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-bottom: none;
+            }
+
+            span.anticon.anticon-download {
+                color: #093185;
+                padding-right: 4px;
+            }
+        }
+    }
+}
+
+.ant-modal.fileUploadModal {
+    .ant-modal-content {
+        border-radius: 4px;
+    }
+
+    .ant-modal-header {
+        border-radius: 4px 4px 0 0;
+    }
+
+    .ant-modal-title {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: #262626;
+    }
+
+    button.ant-modal-close {
+        margin-top: -5px;
+
+        span.anticon.anticon-close.ant-modal-close-icon {
+            font-size: 14px;
+        }
+    }
+
+    .ant-modal-footer {
+        button {
+            border-radius: 2px !important;
+        }
+    }
+
+    .ant-modal-body {
+        padding: 0px;
+    }
+
+    .fileUploadModal-draggerContainer {
+        .ant-upload.ant-upload-drag {
+            padding: 0 20px 10px;
+        }
+
+        p.ant-upload-drag-icon {
+            margin-bottom: 10px;
+            svg {
+                color: #093185;
+            }
+        }
+
+        .ant-upload-list.ant-upload-list-text {
+            padding: 10px 20px 20px;
+        }
+    }
+}
+
+.fileUpload-deletePopover {
+    p {
+        font-size: 12px;
+        color: #262626;
+        margin: 0px;
+    }
+}
+
+.ant-popover-buttons {
+    button.ant-btn.ant-btn-primary {
+        background-color: #093185;
+        color: #ffffff;
+    }
+}
+
+.ant-collapse-header {
+    span.panelHeader_span {
+        inline-size: auto;
+        overflow-wrap: break-word;
+    }
+}
+
+.fileUpload-accordion {
+    .parameter-tag {
+        width: 70px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        word-break: break-all;
+        margin: 0px;
+    }
+}

@@ -1,0 +1,313 @@
+.viewCreation-container {
+  padding: 0px;
+  h4 {
+    margin-bottom: 0px !important;
+  }
+  hr {
+    margin: 0px !important;
+    border-width: 0.5px !important;
+  }
+  .viewCreation-block {
+    padding: 10px 25px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1px;
+
+    .viewCreation-btns {
+      button {
+        margin-left: 16px !important;
+      }
+      button.ant-btn {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #262626;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        // margin-left: 8px;
+        border-radius: 4px;
+        border: 1px solid #093185;
+        margin-left: 16px !important;
+        &:hover {
+          color: #40a9ff;
+        }
+
+        span.anticon {
+          color: #093185;
+        }
+      }
+
+      .disable {
+        button.ant-btn {
+          &:hover {
+            color: transparent;
+          }
+        }
+      }
+      .ant-btn[disabled]:hover{
+       color:#262626;
+      }
+
+      .viewCreation-clearBtn {
+        border: none !important;
+      }
+
+      .viewCreation-publishBtn {
+        background-color: #093185;
+        color: #ffffff !important;
+
+        span.anticon {
+          color: #ffffff !important;
+        }
+      }
+    }
+  }
+
+  .reportDesigner-headline {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    border-bottom: none;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+
+    span {
+      margin-right: 5px;
+    }
+  }
+
+  .reportDesigner-gridBlocks {
+    // margin-top: 24px;
+  }
+
+  .reportDesigner-grid-tables.viewCreation-blocks {
+    grid-template-columns: 29% 70%;
+    grid-gap: 0 24px;
+    padding: 7px 20px;
+    height: calc(100vh - 120px);
+    min-height: calc(100vh - 120px);
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    .viewCreation-leftBlocks {
+      .viewCreation-parameterLookup {
+        h4 {
+          margin-bottom: 0px !important;
+        }
+        hr {
+          margin: 0px !important;
+        }
+        .ant-select-selector {
+          border-radius: 4px !important;
+        }
+        .ant-select-selection-placeholder {
+          color: black !important;
+        }
+      }
+    }
+
+    .viewCreation-rightBlocks {
+      .viewCreation-viewSummary {
+        margin-bottom: 24px;
+      }
+    }
+  }
+}
+
+a.deleteTableAction {
+  color: #ff1d1d;
+}
+
+.viewCreation-accordian {
+  .ant-collapse-header {
+    font-size: 16px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 560;
+    padding: 10px 25px !important;
+    background-color: #f1f7ff;
+
+    .ant-collapse-arrow {
+      right: 48px !important;
+      color: #454545;
+    }
+  }
+  .ant-collapse-item:last-child {
+    border-bottom: 0px !important;
+  }
+  .ant-collapse-content {
+    .ant-collapse-content-box {
+      padding: 10px 24px 20px !important;
+    }
+  }
+}
+
+.table-search {
+  margin: 6px 30px;
+}
+.ant-table-wrapper {
+  overflow: auto;
+}
+
+.reportDesigner-container {
+  //padding: 10px;
+
+  .reportDesigner-headline {
+    font-size: 16px;
+    margin: 0px;
+    font-weight: 400;
+  }
+
+  .reportDesigner-gridBlocks {
+    margin-bottom: 30px;
+  }
+
+  .reportDesigner-grid-tables {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-gap: 10px;
+
+    .reportDesigner-scatterPlot {
+      height: 590px;
+      overflow: scroll;
+    }
+
+    h4 {
+      font-size: 16px;
+      font-family: 'Maven Pro', sans-serif;
+      font-weight: 560;
+      padding: 10px 25px;
+      background-color: #f1f7ff;
+      //border-bottom: 1px solid #d9d9d9;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .reportDesigner-filter {
+      margin: 20px 0px;
+    }
+  }
+
+  .reportDesigner-headerTable {
+    margin-bottom: 20px;
+  }
+
+  .reportDesigner-grid-button {
+    text-align: right;
+    margin-top: 30px;
+
+    button {
+      background-color: #3031fb;
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: 8px;
+      margin-left: 10px;
+    }
+  }
+}
+
+.reportDesigner-sharing {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px 20px;
+}
+
+.bg-white {
+  box-shadow: 1px 1px 14px #0000001a;
+  border-radius: 4px;
+  background-color: #ffffff;
+  height: fit-content;
+  .ant-row.ant-form-item {
+    margin: 0px;
+
+    label {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+    }
+  }
+}
+
+.reportDesigner-headerTableBlock,
+.reportDesigner-ChartTableBlock {
+  table {
+    font-weight: 600;
+    font-size: 12px;
+
+    thead.ant-table-thead {
+      th {
+        background-color: #d4d4d4;
+        color: #000000 !important;
+        font-weight: 600;
+        border: 1px solid #363636;
+        padding: 5px 10px;
+      }
+    }
+
+    tbody.ant-table-tbody {
+      td {
+        border: 1px solid #363636;
+        background-color: #ffffff;
+        color: #121212;
+        padding: 5px 10px;
+      }
+    }
+  }
+}
+
+.reportDesigner-headerTableBlock {
+  table {
+    text-align: center;
+
+    thead.ant-table-thead {
+      th {
+        text-align: center;
+      }
+    }
+  }
+}
+
+.scrollbar,
+.ant-table-content {
+  &:hover {
+    &::-webkit-scrollbar-thumb {
+      background-color: #b6b6b6;
+    }
+  }
+
+  &::-webkit-scrollbar {
+    visibility: hidden;
+    width: 5px;
+    height: 7px;
+    border-radius: 60px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #b6b6b6;
+    transition: 0.5s ease;
+    border-radius: 60px;
+  }
+}
+
+.viewCreation-blockHeader {
+  border-radius: 4px 4px 0 0 !important;
+  border-bottom: 1px solid #cacaca;
+}
+
+.paramColumn {
+  width: 85px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-break: break-word;
+  margin: 0px;
+}
+
+.ant-input-wrapper {
+  margin-top:-13px !important;
+}

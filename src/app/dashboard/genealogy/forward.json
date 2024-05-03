@@ -1,0 +1,978 @@
+[
+  {
+    "OpenNC": false,
+    "batchNo": "393486",
+    "children": [
+      {
+        "children": [
+          {
+            "OpenNC": false,
+            "batchNo": "394575",
+            "children": [
+              {
+                "children": [
+                  {
+                    "OpenNC": false,
+                    "batchNo": "X8331",
+                    "id": "36935",
+                    "level": 4,
+                    "matDesc": "FERVEX 500 PDRE AD (8SAC) VTE SER",
+                    "matNo": "1191376",
+                    "mat_type": "FIN",
+                    "nodeId": "1338|1191376|X8331",
+                    "plant": 1338,
+                    "type": "Material"
+                  }
+                ],
+                "id": "288184",
+                "level": 3,
+                "poNo": "1.02281163E8",
+                "relationshipMap": {
+                  "288184-36935": {
+                    "endNodeId": "288184",
+                    "id": "550473",
+                    "qty": 109000.0,
+                    "startNodeId": "36935",
+                    "type": "Output",
+                    "unit": "ST"
+                  }
+                },
+                "type": "Process Order"
+              }
+            ],
+            "id": "9044",
+            "level": 2,
+            "matDesc": "ACETAMINOPHEN BLEND 500MG FINAL FOR SACH",
+            "matNo": "1089084",
+            "mat_type": "HALB",
+            "nodeId": "1338|1089084|394575",
+            "plant": 1338,
+            "relationshipMap": {
+              "9044-288184": {
+                "endNodeId": "9044",
+                "id": "199865",
+                "qty": 3939.0,
+                "startNodeId": "288184",
+                "type": "Input",
+                "unit": "KG"
+              }
+            },
+            "type": "Material"
+          }
+        ],
+        "id": "281304",
+        "level": 1,
+        "poNo": "1.02280646E8",
+        "relationshipMap": {
+          "281304-9044": {
+            "endNodeId": "281304",
+            "id": "555738",
+            "qty": 3939.0,
+            "startNodeId": "9044",
+            "type": "Output",
+            "unit": "KG"
+          }
+        },
+        "type": "Process Order"
+      },
+      {
+        "children": [
+          {
+            "OpenNC": false,
+            "batchNo": "394574",
+            "children": [
+              {
+                "children": [
+                  {
+                    "OpenNC": false,
+                    "batchNo": "X8331",
+                    "id": "36935",
+                    "level": 4,
+                    "matDesc": "FERVEX 500 PDRE AD (8SAC) VTE SER",
+                    "matNo": "1191376",
+                    "mat_type": "FIN",
+                    "nodeId": "1338|1191376|X8331",
+                    "plant": 1338,
+                    "type": "Material"
+                  }
+                ],
+                "id": "288184",
+                "level": 3,
+                "poNo": "1.02281163E8",
+                "relationshipMap": {
+                  "288184-36935": {
+                    "endNodeId": "288184",
+                    "id": "550473",
+                    "qty": 109000.0,
+                    "startNodeId": "36935",
+                    "type": "Output",
+                    "unit": "ST"
+                  }
+                },
+                "type": "Process Order"
+              }
+            ],
+            "id": "9043",
+            "level": 2,
+            "matDesc": "ACETAMINOPHEN BLEND 500MG FINAL FOR SACH",
+            "matNo": "1089084",
+            "mat_type": "HALB",
+            "nodeId": "1338|1089084|394574",
+            "plant": 1338,
+            "relationshipMap": {
+              "9043-288184": {
+                "endNodeId": "9043",
+                "id": "199864",
+                "qty": 3938.0,
+                "startNodeId": "288184",
+                "type": "Input",
+                "unit": "KG"
+              }
+            },
+            "type": "Material"
+          }
+        ],
+        "id": "302596",
+        "level": 1,
+        "poNo": "1.02280645E8",
+        "relationshipMap": {
+          "302596-9043": {
+            "endNodeId": "302596",
+            "id": "555737",
+            "qty": 3938.0,
+            "startNodeId": "9043",
+            "type": "Output",
+            "unit": "KG"
+          }
+        },
+        "type": "Process Order"
+      },
+      {
+        "children": [
+          {
+            "OpenNC": false,
+            "batchNo": "394156",
+            "children": [
+              {
+                "children": [
+                  {
+                    "OpenNC": false,
+                    "batchNo": "X8203",
+                    "id": "8949",
+                    "level": 4,
+                    "matDesc": "FERVEX AD PSOL 500MG (8SACH) 13.1G RO",
+                    "matNo": "1088713",
+                    "mat_type": "FIN",
+                    "nodeId": "1338|1088713|X8203",
+                    "plant": 1338,
+                    "type": "Material"
+                  }
+                ],
+                "id": "307490",
+                "level": 3,
+                "poNo": "1.02280632E8",
+                "relationshipMap": {
+                  "307490-8949": {
+                    "endNodeId": "307490",
+                    "id": "555733",
+                    "qty": 72200.0,
+                    "startNodeId": "8949",
+                    "type": "Output",
+                    "unit": "ST"
+                  }
+                },
+                "type": "Process Order"
+              }
+            ],
+            "id": "9040",
+            "level": 2,
+            "matDesc": "ACETAMINOPHEN BLEND 500MG FINAL FOR SACH",
+            "matNo": "1089084",
+            "mat_type": "HALB",
+            "nodeId": "1338|1089084|394156",
+            "plant": 1338,
+            "relationshipMap": {
+              "9040-307490": {
+                "endNodeId": "9040",
+                "id": "196858",
+                "qty": 3890.0,
+                "startNodeId": "307490",
+                "type": "Input",
+                "unit": "KG"
+              }
+            },
+            "type": "Material"
+          }
+        ],
+        "id": "305098",
+        "level": 1,
+        "poNo": "1.02279689E8",
+        "relationshipMap": {
+          "305098-9040": {
+            "endNodeId": "305098",
+            "id": "555637",
+            "qty": 3890.0,
+            "startNodeId": "9040",
+            "type": "Output",
+            "unit": "KG"
+          }
+        },
+        "type": "Process Order"
+      },
+      {
+        "children": [
+          {
+            "OpenNC": false,
+            "batchNo": "394579",
+            "children": [
+              {
+                "children": [
+                  {
+                    "OpenNC": false,
+                    "batchNo": "X8438",
+                    "id": "36939",
+                    "level": 4,
+                    "matDesc": "FERVEX 500 PDRE AD (8SAC) VTE SER",
+                    "matNo": "1191376",
+                    "mat_type": "FIN",
+                    "nodeId": "1338|1191376|X8438",
+                    "plant": 1338,
+                    "type": "Material"
+                  }
+                ],
+                "id": "300151",
+                "level": 3,
+                "poNo": "1.02282748E8",
+                "relationshipMap": {
+                  "300151-36939": {
+                    "endNodeId": "300151",
+                    "id": "552186",
+                    "qty": 35900.0,
+                    "startNodeId": "36939",
+                    "type": "Output",
+                    "unit": "ST"
+                  }
+                },
+                "type": "Process Order"
+              }
+            ],
+            "id": "10409",
+            "level": 2,
+            "matDesc": "ACETAMINOPHEN BLEND 500MG FINAL FOR SACH",
+            "matNo": "1089084",
+            "mat_type": "HALB",
+            "nodeId": "1338|1089084|394579",
+            "plant": 1338,
+            "relationshipMap": {
+              "10409-300151": {
+                "endNodeId": "10409",
+                "id": "208868",
+                "qty": 3916.0,
+                "startNodeId": "300151",
+                "type": "Input",
+                "unit": "KG"
+              }
+            },
+            "type": "Material"
+          }
+        ],
+        "id": "298169",
+        "level": 1,
+        "poNo": "1.0228083E8",
+        "relationshipMap": {
+          "298169-10409": {
+            "endNodeId": "298169",
+            "id": "555772",
+            "qty": 3916.0,
+            "startNodeId": "10409",
+            "type": "Output",
+            "unit": "KG"
+          }
+        },
+        "type": "Process Order"
+      },
+      {
+        "children": [
+          {
+            "OpenNC": false,
+            "batchNo": "394578",
+            "children": [
+              {
+                "children": [
+                  {
+                    "OpenNC": false,
+                    "batchNo": "X8390",
+                    "id": "36937",
+                    "level": 4,
+                    "matDesc": "FERVEX 500 PDRE AD (8SAC) VTE SER",
+                    "matNo": "1191376",
+                    "mat_type": "FIN",
+                    "nodeId": "1338|1191376|X8390",
+                    "plant": 1338,
+                    "type": "Material"
+                  }
+                ],
+                "id": "281055",
+                "level": 3,
+                "poNo": "1.0228232E8",
+                "relationshipMap": {
+                  "281055-36937": {
+                    "endNodeId": "281055",
+                    "id": "552104",
+                    "qty": 109000.0,
+                    "startNodeId": "36937",
+                    "type": "Output",
+                    "unit": "ST"
+                  }
+                },
+                "type": "Process Order"
+              }
+            ],
+            "id": "9047",
+            "level": 2,
+            "matDesc": "ACETAMINOPHEN BLEND 500MG FINAL FOR SACH",
+            "matNo": "1089084",
+            "mat_type": "HALB",
+            "nodeId": "1338|1089084|394578",
+            "plant": 1338,
+            "relationshipMap": {
+              "9047-281055": {
+                "endNodeId": "9047",
+                "id": "206006",
+                "qty": 3916.0,
+                "startNodeId": "281055",
+                "type": "Input",
+                "unit": "KG"
+              }
+            },
+            "type": "Material"
+          }
+        ],
+        "id": "271944",
+        "level": 1,
+        "poNo": "1.02280829E8",
+        "relationshipMap": {
+          "271944-9047": {
+            "endNodeId": "271944",
+            "id": "555766",
+            "qty": 3916.0,
+            "startNodeId": "9047",
+            "type": "Output",
+            "unit": "KG"
+          }
+        },
+        "type": "Process Order"
+      },
+      {
+        "children": [
+          {
+            "OpenNC": false,
+            "batchNo": "394572",
+            "children": [
+              {
+                "children": [
+                  {
+                    "OpenNC": false,
+                    "batchNo": "X8203",
+                    "id": "8949",
+                    "level": 4,
+                    "matDesc": "FERVEX AD PSOL 500MG (8SACH) 13.1G RO",
+                    "matNo": "1088713",
+                    "mat_type": "FIN",
+                    "nodeId": "1338|1088713|X8203",
+                    "plant": 1338,
+                    "type": "Material"
+                  }
+                ],
+                "id": "307490",
+                "level": 3,
+                "poNo": "1.02280632E8",
+                "relationshipMap": {
+                  "307490-8949": {
+                    "endNodeId": "307490",
+                    "id": "555733",
+                    "qty": 72200.0,
+                    "startNodeId": "8949",
+                    "type": "Output",
+                    "unit": "ST"
+                  }
+                },
+                "type": "Process Order"
+              }
+            ],
+            "id": "9041",
+            "level": 2,
+            "matDesc": "ACETAMINOPHEN BLEND 500MG FINAL FOR SACH",
+            "matNo": "1089084",
+            "mat_type": "HALB",
+            "nodeId": "1338|1089084|394572",
+            "plant": 1338,
+            "relationshipMap": {
+              "9041-307490": {
+                "endNodeId": "9041",
+                "id": "196859",
+                "qty": 3925.0,
+                "startNodeId": "307490",
+                "type": "Input",
+                "unit": "KG"
+              }
+            },
+            "type": "Material"
+          }
+        ],
+        "id": "285359",
+        "level": 1,
+        "poNo": "1.02280643E8",
+        "relationshipMap": {
+          "285359-9041": {
+            "endNodeId": "285359",
+            "id": "555735",
+            "qty": 3925.0,
+            "startNodeId": "9041",
+            "type": "Output",
+            "unit": "KG"
+          }
+        },
+        "type": "Process Order"
+      },
+      {
+        "children": [
+          {
+            "OpenNC": false,
+            "batchNo": "394580",
+            "children": [
+              {
+                "children": [
+                  {
+                    "OpenNC": false,
+                    "batchNo": "X8440",
+                    "id": "161914",
+                    "level": 4,
+                    "matDesc": "FERVEX GRAN DO SPORZ.ROZTW.12SASZ PO 13G",
+                    "matNo": "1367749",
+                    "mat_type": "FIN",
+                    "nodeId": "1338|1367749|X8440",
+                    "plant": 1338,
+                    "type": "Material"
+                  }
+                ],
+                "id": "293702",
+                "level": 3,
+                "poNo": "1.0228275E8",
+                "relationshipMap": {
+                  "293702-161914": {
+                    "endNodeId": "293702",
+                    "id": "562027",
+                    "qty": 71160.0,
+                    "startNodeId": "161914",
+                    "type": "Output",
+                    "unit": "ST"
+                  }
+                },
+                "type": "Process Order"
+              }
+            ],
+            "id": "10410",
+            "level": 2,
+            "matDesc": "ACETAMINOPHEN BLEND 500MG FINAL FOR SACH",
+            "matNo": "1089084",
+            "mat_type": "HALB",
+            "nodeId": "1338|1089084|394580",
+            "plant": 1338,
+            "relationshipMap": {
+              "10410-293702": {
+                "endNodeId": "10410",
+                "id": "208893",
+                "qty": 3917.0,
+                "startNodeId": "293702",
+                "type": "Input",
+                "unit": "KG"
+              }
+            },
+            "type": "Material"
+          }
+        ],
+        "id": "272855",
+        "level": 1,
+        "poNo": "1.02280831E8",
+        "relationshipMap": {
+          "272855-10410": {
+            "endNodeId": "272855",
+            "id": "555768",
+            "qty": 3917.0,
+            "startNodeId": "10410",
+            "type": "Output",
+            "unit": "KG"
+          }
+        },
+        "type": "Process Order"
+      },
+      {
+        "children": [
+          {
+            "OpenNC": false,
+            "batchNo": "394576",
+            "children": [
+              {
+                "children": [
+                  {
+                    "OpenNC": false,
+                    "batchNo": "X8390",
+                    "id": "36937",
+                    "level": 4,
+                    "matDesc": "FERVEX 500 PDRE AD (8SAC) VTE SER",
+                    "matNo": "1191376",
+                    "mat_type": "FIN",
+                    "nodeId": "1338|1191376|X8390",
+                    "plant": 1338,
+                    "type": "Material"
+                  }
+                ],
+                "id": "281055",
+                "level": 3,
+                "poNo": "1.0228232E8",
+                "relationshipMap": {
+                  "281055-36937": {
+                    "endNodeId": "281055",
+                    "id": "552104",
+                    "qty": 109000.0,
+                    "startNodeId": "36937",
+                    "type": "Output",
+                    "unit": "ST"
+                  }
+                },
+                "type": "Process Order"
+              }
+            ],
+            "id": "9045",
+            "level": 2,
+            "matDesc": "ACETAMINOPHEN BLEND 500MG FINAL FOR SACH",
+            "matNo": "1089084",
+            "mat_type": "HALB",
+            "nodeId": "1338|1089084|394576",
+            "plant": 1338,
+            "relationshipMap": {
+              "9045-281055": {
+                "endNodeId": "9045",
+                "id": "206004",
+                "qty": 3925.0,
+                "startNodeId": "281055",
+                "type": "Input",
+                "unit": "KG"
+              }
+            },
+            "type": "Material"
+          }
+        ],
+        "id": "295805",
+        "level": 1,
+        "poNo": "1.02280647E8",
+        "relationshipMap": {
+          "295805-9045": {
+            "endNodeId": "295805",
+            "id": "555739",
+            "qty": 3925.0,
+            "startNodeId": "9045",
+            "type": "Output",
+            "unit": "KG"
+          }
+        },
+        "type": "Process Order"
+      },
+      {
+        "children": [
+          {
+            "OpenNC": false,
+            "batchNo": "394155",
+            "children": [
+              {
+                "children": [
+                  {
+                    "OpenNC": false,
+                    "batchNo": "X8202",
+                    "id": "8947",
+                    "level": 4,
+                    "matDesc": "FERVEX AD PSOL 500MG (8SACH) 13.1G RO",
+                    "matNo": "1088713",
+                    "mat_type": "FIN",
+                    "nodeId": "1338|1088713|X8202",
+                    "plant": 1338,
+                    "type": "Material"
+                  }
+                ],
+                "id": "311965",
+                "level": 3,
+                "poNo": "1.02280631E8",
+                "relationshipMap": {
+                  "311965-8947": {
+                    "endNodeId": "311965",
+                    "id": "555732",
+                    "qty": 107900.0,
+                    "startNodeId": "8947",
+                    "type": "Output",
+                    "unit": "ST"
+                  }
+                },
+                "type": "Process Order"
+              }
+            ],
+            "id": "9039",
+            "level": 2,
+            "matDesc": "ACETAMINOPHEN BLEND 500MG FINAL FOR SACH",
+            "matNo": "1089084",
+            "mat_type": "HALB",
+            "nodeId": "1338|1089084|394155",
+            "plant": 1338,
+            "relationshipMap": {
+              "9039-311965": {
+                "endNodeId": "9039",
+                "id": "196854",
+                "qty": 3937.0,
+                "startNodeId": "311965",
+                "type": "Input",
+                "unit": "KG"
+              }
+            },
+            "type": "Material"
+          }
+        ],
+        "id": "299772",
+        "level": 1,
+        "poNo": "1.02279688E8",
+        "relationshipMap": {
+          "299772-9039": {
+            "endNodeId": "299772",
+            "id": "555636",
+            "qty": 3937.0,
+            "startNodeId": "9039",
+            "type": "Output",
+            "unit": "KG"
+          }
+        },
+        "type": "Process Order"
+      },
+      {
+        "children": [
+          {
+            "OpenNC": false,
+            "batchNo": "394573",
+            "children": [
+              {
+                "children": [
+                  {
+                    "OpenNC": false,
+                    "batchNo": "X8331",
+                    "id": "36935",
+                    "level": 4,
+                    "matDesc": "FERVEX 500 PDRE AD (8SAC) VTE SER",
+                    "matNo": "1191376",
+                    "mat_type": "FIN",
+                    "nodeId": "1338|1191376|X8331",
+                    "plant": 1338,
+                    "type": "Material"
+                  }
+                ],
+                "id": "288184",
+                "level": 3,
+                "poNo": "1.02281163E8",
+                "relationshipMap": {
+                  "288184-36935": {
+                    "endNodeId": "288184",
+                    "id": "550473",
+                    "qty": 109000.0,
+                    "startNodeId": "36935",
+                    "type": "Output",
+                    "unit": "ST"
+                  }
+                },
+                "type": "Process Order"
+              }
+            ],
+            "id": "9042",
+            "level": 2,
+            "matDesc": "ACETAMINOPHEN BLEND 500MG FINAL FOR SACH",
+            "matNo": "1089084",
+            "mat_type": "HALB",
+            "nodeId": "1338|1089084|394573",
+            "plant": 1338,
+            "relationshipMap": {
+              "9042-288184": {
+                "endNodeId": "9042",
+                "id": "199863",
+                "qty": 3917.0,
+                "startNodeId": "288184",
+                "type": "Input",
+                "unit": "KG"
+              }
+            },
+            "type": "Material"
+          }
+        ],
+        "id": "301547",
+        "level": 1,
+        "poNo": "1.02280644E8",
+        "relationshipMap": {
+          "301547-9042": {
+            "endNodeId": "301547",
+            "id": "555736",
+            "qty": 3917.0,
+            "startNodeId": "9042",
+            "type": "Output",
+            "unit": "KG"
+          }
+        },
+        "type": "Process Order"
+      },
+      {
+        "children": [
+          {
+            "OpenNC": false,
+            "batchNo": "394581",
+            "children": [
+              {
+                "children": [
+                  {
+                    "OpenNC": false,
+                    "batchNo": "X8440",
+                    "id": "161914",
+                    "level": 4,
+                    "matDesc": "FERVEX GRAN DO SPORZ.ROZTW.12SASZ PO 13G",
+                    "matNo": "1367749",
+                    "mat_type": "FIN",
+                    "nodeId": "1338|1367749|X8440",
+                    "plant": 1338,
+                    "type": "Material"
+                  }
+                ],
+                "id": "293702",
+                "level": 3,
+                "poNo": "1.0228275E8",
+                "relationshipMap": {
+                  "293702-161914": {
+                    "endNodeId": "293702",
+                    "id": "562027",
+                    "qty": 71160.0,
+                    "startNodeId": "161914",
+                    "type": "Output",
+                    "unit": "ST"
+                  }
+                },
+                "type": "Process Order"
+              }
+            ],
+            "id": "10411",
+            "level": 2,
+            "matDesc": "ACETAMINOPHEN BLEND 500MG FINAL FOR SACH",
+            "matNo": "1089084",
+            "mat_type": "HALB",
+            "nodeId": "1338|1089084|394581",
+            "plant": 1338,
+            "relationshipMap": {
+              "10411-293702": {
+                "endNodeId": "10411",
+                "id": "208894",
+                "qty": 3916.0,
+                "startNodeId": "293702",
+                "type": "Input",
+                "unit": "KG"
+              }
+            },
+            "type": "Material"
+          }
+        ],
+        "id": "307491",
+        "level": 1,
+        "poNo": "1.02280832E8",
+        "relationshipMap": {
+          "307491-10411": {
+            "endNodeId": "307491",
+            "id": "555769",
+            "qty": 3916.0,
+            "startNodeId": "10411",
+            "type": "Output",
+            "unit": "KG"
+          }
+        },
+        "type": "Process Order"
+      },
+      {
+        "children": [
+          {
+            "OpenNC": false,
+            "batchNo": "394577",
+            "children": [
+              {
+                "children": [
+                  {
+                    "OpenNC": false,
+                    "batchNo": "X8390",
+                    "id": "36937",
+                    "level": 4,
+                    "matDesc": "FERVEX 500 PDRE AD (8SAC) VTE SER",
+                    "matNo": "1191376",
+                    "mat_type": "FIN",
+                    "nodeId": "1338|1191376|X8390",
+                    "plant": 1338,
+                    "type": "Material"
+                  }
+                ],
+                "id": "281055",
+                "level": 3,
+                "poNo": "1.0228232E8",
+                "relationshipMap": {
+                  "281055-36937": {
+                    "endNodeId": "281055",
+                    "id": "552104",
+                    "qty": 109000.0,
+                    "startNodeId": "36937",
+                    "type": "Output",
+                    "unit": "ST"
+                  }
+                },
+                "type": "Process Order"
+              }
+            ],
+            "id": "9046",
+            "level": 2,
+            "matDesc": "ACETAMINOPHEN BLEND 500MG FINAL FOR SACH",
+            "matNo": "1089084",
+            "mat_type": "HALB",
+            "nodeId": "1338|1089084|394577",
+            "plant": 1338,
+            "relationshipMap": {
+              "9046-281055": {
+                "endNodeId": "9046",
+                "id": "206005",
+                "qty": 3954.0,
+                "startNodeId": "281055",
+                "type": "Input",
+                "unit": "KG"
+              }
+            },
+            "type": "Material"
+          }
+        ],
+        "id": "272489",
+        "level": 1,
+        "poNo": "1.02280828E8",
+        "relationshipMap": {
+          "272489-9046": {
+            "endNodeId": "272489",
+            "id": "555765",
+            "qty": 3954.0,
+            "startNodeId": "9046",
+            "type": "Output",
+            "unit": "KG"
+          }
+        },
+        "type": "Process Order"
+      }
+    ],
+    "id": "8259",
+    "level": 0,
+    "matDesc": "CARIBBEAN AROMA",
+    "matNo": "1091460",
+    "mat_type": "RAW",
+    "nodeId": "1338|1091460|393486",
+    "plant": 1338,
+    "relationshipMap": {
+      "8259-271944": {
+        "endNodeId": "8259",
+        "id": "178422",
+        "qty": 150.0,
+        "startNodeId": "271944",
+        "type": "Input",
+        "unit": "KG"
+      },
+      "8259-272489": {
+        "endNodeId": "8259",
+        "id": "178420",
+        "qty": 151.0,
+        "startNodeId": "272489",
+        "type": "Input",
+        "unit": "KG"
+      },
+      "8259-272855": {
+        "endNodeId": "8259",
+        "id": "178425",
+        "qty": 150.0,
+        "startNodeId": "272855",
+        "type": "Input",
+        "unit": "KG"
+      },
+      "8259-281304": {
+        "endNodeId": "8259",
+        "id": "178247",
+        "qty": 151.0,
+        "startNodeId": "281304",
+        "type": "Input",
+        "unit": "KG"
+      },
+      "8259-285359": {
+        "endNodeId": "8259",
+        "id": "178241",
+        "qty": 150.0,
+        "startNodeId": "285359",
+        "type": "Input",
+        "unit": "KG"
+      },
+      "8259-295805": {
+        "endNodeId": "8259",
+        "id": "178249",
+        "qty": 150.0,
+        "startNodeId": "295805",
+        "type": "Input",
+        "unit": "KG"
+      },
+      "8259-298169": {
+        "endNodeId": "8259",
+        "id": "178439",
+        "qty": 150.0,
+        "startNodeId": "298169",
+        "type": "Input",
+        "unit": "KG"
+      },
+      "8259-299772": {
+        "endNodeId": "8259",
+        "id": "169321",
+        "qty": 76.0,
+        "startNodeId": "299772",
+        "type": "Input",
+        "unit": "KG"
+      },
+      "8259-301547": {
+        "endNodeId": "8259",
+        "id": "178243",
+        "qty": 150.0,
+        "startNodeId": "301547",
+        "type": "Input",
+        "unit": "KG"
+      },
+      "8259-302596": {
+        "endNodeId": "8259",
+        "id": "178245",
+        "qty": 151.0,
+        "startNodeId": "302596",
+        "type": "Input",
+        "unit": "KG"
+      },
+      "8259-305098": {
+        "endNodeId": "8259",
+        "id": "169323",
+        "qty": 149.0,
+        "startNodeId": "305098",
+        "type": "Input",
+        "unit": "KG"
+      },
+      "8259-307491": {
+        "endNodeId": "8259",
+        "id": "178427",
+        "qty": 102.0,
+        "startNodeId": "307491",
+        "type": "Input",
+        "unit": "KG"
+      }
+    },
+    "type": "Material"
+  }
+]

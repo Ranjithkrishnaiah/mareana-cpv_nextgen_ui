@@ -1,0 +1,62 @@
+#sidebar {
+	a,
+	.anticon,
+	.ant-menu {
+		color: #fff;
+	}
+	.ant-menu {
+		background-color: var(--secondary-color);
+	}
+	.ant-menu-vertical {
+		border-right: none;
+	}
+	.ant-menu-inline,
+	.ant-menu {
+		border-right: 1px solid var(--secondary-color);
+		.ant-menu-item {
+			color: #fff;
+		}
+		.ant-menu-item::after {
+			border-right: none;
+		}
+		.ant-menu-item:not(.ant-menu-item-selected) {
+			background: transparent !important;
+		}
+		.ant-menu-item.ant-menu-item-selected::before {
+			border-left: 3px solid #fff;
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			content: '';
+		}
+		.ant-menu-item-selected {
+			background-color: var(--secondary-light-color);
+		}
+	}
+	#logo-small {
+		height: 50px;
+		background: #fff;
+		margin: 5px;
+		border-radius: 5px;
+	}
+	.ant-menu-item .anticon,
+	.ant-menu-submenu-title .anticon {
+		position: relative;
+		top: 5px;
+	}
+	.ant-menu-inline-collapsed > .ant-menu-item .anticon {
+		left: -5px;
+	}
+}
+
+.ant-layout-sider-light {
+	background-color: var(--secondary-color) !important;
+}
+
+.ant-layout-sider-collapsed {
+	flex: 0 0 60px !important;
+	max-width: 60px !important;
+	min-width: 60px !important;
+	width: 60px !important;
+}

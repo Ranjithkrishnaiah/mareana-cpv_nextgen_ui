@@ -1,0 +1,86 @@
+.bg-img {
+	background-image: url('../../../assets/login-background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.logo {
+	height: 55px;
+	padding-top: 5px;
+}
+.body {
+	padding-top: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card-changes {
+	// left: 315px;
+	// top: -30px;
+	min-width: 600px;
+	background: #fff;
+	// border-radius: 15px;
+}
+.card-action-new {
+	padding: 45px 0px !important;
+	border-top: 0px !important;
+	button {
+		background: rgb(60, 78, 158) !important;
+		color: #ffffff;
+		&:hover {
+			color: #ffffff;
+		}
+	}
+}
+.card-container-change {
+	padding: 20px 40px !important;
+}
+.group-feilds {
+	margin-top: 34px !important;
+}
+.btn-spectra {
+	background-color: #2196f3;
+	font-weight: 300;
+	float: right;
+	box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2),
+		0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+	padding: 4px 16px;
+	font-size: 0.875rem;
+	min-width: 64px;
+	box-sizing: border-box;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+		box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+		border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+	line-height: 1.75;
+	font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+	border-radius: 4px;
+	letter-spacing: 0.086em;
+	color: white;
+}
+.page-login-header {
+	background-color: #fff;
+	height: 60px;
+	position: relative;
+	top: 0;
+}
+.page-login-header .logo {
+	float: right;
+	padding-right: 25px;
+}
+.brand-name {
+	float: left;
+	padding: 14px 0px 14px 20px;
+	color: #2b5a8f !important;
+	font-size: 22px;
+	font-weight: 600;
+}
+.page-login {
+	padding: 0px !important;
+}
+.cpv-logo {
+	height: 100px;
+}
+
+.page-login {
+	min-height: 100vh;
+}

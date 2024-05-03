@@ -1,0 +1,265 @@
+//  cpv-layout-content
+.ant-layout-content {
+  padding: 0;
+  .custom-wrapper {
+    .sub-header {
+      padding: 10px 29px;
+      background: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 50px;
+      .sub-header-title {
+        display: flex;
+        .header-icon {
+          padding: 15px 0;
+          font-size: 20px;
+          color: #262626;
+        }
+        .header-title {
+          // font-family: 'Maven Pro', sans-serif !important;
+          // font-style: normal;
+          // font-weight: 600;
+          // font-size: 20px;
+          // line-height: 46px;
+          // /* identical to box height, or 230% */
+          // text-transform: uppercase;
+          // /* Gray / gray-9 */
+          // color: #262626;
+          // padding-left: 9.75px;
+          // border-bottom: none;
+          // display: flex;
+          // align-items: center;
+          // margin: 0;
+          font-family: 'Roboto', sans-serif !important;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 46px;
+          text-transform: uppercase;
+          color: #262626;
+          padding-left: 5.75px;
+          border-bottom: none;
+          display: flex;
+          align-items: center;
+          margin: 0;
+        }
+      }
+      .sub-header-btns {
+        .custom-primary-btn {
+          margin: 0px 6px;
+        }
+      }
+    }
+    .custom-content-layout {
+      padding: 8px 29px;
+      min-height: calc(100vh - 120px);
+      overflow-y: scroll;
+      height: calc(100vh - 120px);
+    }
+  }
+}
+
+// cpv card head
+.ant-card-head {
+  background-color: #f1f7ff !important;
+  min-height: 40px !important;
+  height: 40px !important;
+  border-bottom: 1px solid #d9d9d9 !important;
+  padding: 8px 12px;
+  .ant-card-head-title {
+    font-family: 'Maven Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 1px 18px;
+  }
+  .ant-card-body {
+    padding: 23px 28px;
+    border-radius: 4px;
+  }
+}
+
+// cpv input css
+.ant-input {
+  box-sizing: border-box;
+  margin: 0;
+  font-variant: tabular-nums;
+  list-style: none;
+  font-feature-settings: 'tnum';
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  min-width: 0;
+  padding: 4px 11px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  line-height: 1.5715;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+.ant-select-selection-overflow-item .ant-select-selection-item {
+  background-color: #fafafa;
+  margin: 5px;
+  border-color: #093185;
+}
+
+// cpv custom buttons
+
+.custom-primary-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #262626;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 4px;
+  border: 1px solid #093185;
+  background: #fff;
+}
+
+.custom-secondary-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  border: 1px solid #093185;
+  background: #093185;
+}
+
+.custom-secondary-btn-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+  /* Gray / gray-9 */
+  color: #262626;
+}
+
+.ant-btn-primary:focus,
+.ant-btn-primary:hover {
+  color: #fff;
+  border-color: #486bc9;
+  background: #486bc9;
+}
+
+.custom-primary-btn:focus,
+.custom-primary-btn:hover {
+  color: #fff;
+  border-color: #486bc9;
+  background: #486bc9;
+}
+
+.custom-secondary-btn:focus,
+.custom-secondary-btn:hover {
+  color: #fff;
+  border-color: #486bc9;
+  background: #486bc9;
+}
+.custom-secondary-btn-link:focus,
+.custom-secondary-btn-link:hover {
+  color: #486bc9;
+}
+.ant-table-thead > tr > th {
+  background: #f2fbff;
+
+  padding: 12px;
+}
+
+.ant-card-bordered {
+  border: 1px solid #f0f0f0;
+  box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 4px;
+}
+
+.ant-empty-normal {
+  margin: 6px 0;
+  color: rgba(0, 0, 0, 0.25);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.ant-switch-checked {
+  background-color: #093185;
+}
+
+.input-error-label {
+  .error-label {
+    margin: 0;
+    color: #ff4d4f;
+  }
+}
+
+.ant-modal-content {
+  border-radius: 4px;
+}
+
+.table-row-light {
+  background-color: #ffffff;
+}
+.table-row-dark {
+  background-color: #f9f9f9;
+}
+.ant-table-small .ant-table-thead > tr > th {
+  background-color: rgba(242, 251, 255, 0.73);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  align-items: center;
+  color: #262626;
+}
+
+.ant-table-tbody > tr > td {
+  border-bottom: 1px solid #f0f0f0;
+  transition: background 0.3s;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #202020;
+}
+.ant-table {
+  border: 1px solid #f0f0f0;
+}
+
+.ant-modal-header {
+  border-radius: 4px 4px 0 0;
+  background: #f1f7ff;
+  border-bottom: 1px solid #d9d9d9;
+}
+.ant-input-textarea {
+  background-color: #baeaff;
+}

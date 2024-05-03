@@ -1,0 +1,119 @@
+{
+  "chart_id": "1",
+  "chart_name": "Chart Test",
+  "chart_description": "Test Chart Object",
+  "chart_version": 1,
+  "chart_status": 0,
+  "view_id": "1",
+  "view_name": "View Test",
+  "data_filter": {
+    "date_range": "2007-03-01T13:00:00Z/2008-05-11T15:30:00Z",
+    "unapproved_data": 1,
+    "site": ""
+  },
+  "chart_type": "",
+  "chart_mapping": {
+    "x": {
+      "function_id": "1",
+      "function_name": "pH"
+    },
+    "y": {
+      "function_id": "2",
+      "function_name": "Temperature"
+    }
+  },
+  "data": [],
+  "layout": {},
+  "exclusions": [
+    {
+      "exclusion_id": "",
+      "exclusion_description": "",
+      "exclusion_value": {},
+      "user": "",
+      "timestamp": "2022-02-14T04:48:32+00:00"
+    }
+  ],
+  "violations": [],
+  "limits": {
+    "control": [
+      {
+        "upper": 5,
+        "lower": 1,
+        "valid_timestamp": "2022-02-14T04:48:32+00:00"
+      },
+      {
+        "upper": 10,
+        "lower": 5
+      }
+    ],
+    "warning": [
+      {
+        "upper": 5,
+        "lower": 1,
+        "valid_timestamp": "2022-02-14T04:48:32+00:00"
+      },
+      {
+        "upper": 10,
+        "lower": 5
+      }
+    ],
+    "specification": [
+      {
+        "upper": 5,
+        "lower": 1,
+        "valid_timestamp": "2022-02-14T04:48:32+00:00"
+      },
+      {
+        "upper": 10,
+        "lower": 5
+      }
+    ]
+  },
+  "alerts": [
+    {
+      "alert_id": "1",
+      "alert_name": "Test Threshold",
+      "type": "threshold",
+      "definition": {
+        "window": "1D",
+        "parameter": "",
+        "operator": "",
+        "threshold": ""
+      },
+      "users": [],
+      "frequency": {
+        "interval": "1D",
+        "offset_timestamp": "2022-02-14T04:48:32+00:00"
+      }
+    },
+    {
+      "alert_id": "2",
+      "alert_name": "Test Control",
+      "type": "limits",
+      "definition": {
+        "control": 0,
+        "warning": 1,
+        "specification": 1
+      },
+      "users": [],
+      "frequency": {
+        "interval": "1D",
+        "offset_timestamp": "2022-02-14T04:48:32+00:00"
+      }
+    },
+    {
+      "alert_id": "3",
+      "alert_name": "Test Rule",
+      "type": "rule",
+      "definition": {
+        "rule_id": "1",
+        "rule_name": "Nelson Rule"
+      },
+      "users": [],
+      "frequency": {
+        "interval": "1D",
+        "offset_timestamp": "2022-02-14T04:48:32+00:00"
+      }
+    }
+  ]
+}

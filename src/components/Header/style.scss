@@ -1,0 +1,41 @@
+#header {
+  background-color: #fff;
+  padding: 13px;
+  height: 58px;
+  line-height: 58px;
+  margin-left: 0px;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  width: 100%;
+  z-index: 999;
+  flex-direction: row;
+  justify-content: space-between;
+  button {
+    border: none;
+  }
+  #hamburger {
+    line-height: normal;
+    vertical-align: top;
+  }
+
+  #search-header {
+    margin-left: 30px;
+  }
+}
+
+.header-logo {
+  span {
+    margin: 0 8px;
+    border-right: 2px solid #486bc9;
+    border-left: 1px solid #fff;
+    padding: 6px 0;
+  }
+}
+
+.logout-btn {
+  padding: 0 6px;
+  span {
+    font-size: 22px;
+    vertical-align: super;
+  }
+}

@@ -1,0 +1,16 @@
+.alert_field_view {
+    .alert_view {
+      display: flex;
+      flex-direction: column;
+    }
+    & p {
+      margin: 0px;
+      padding: 4px 0px;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 22px;
+      color: #262626;
+    }
+  }
